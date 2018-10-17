@@ -52,6 +52,12 @@ nano /etc/shadowsocks/shadowsocks.json
 ```
 - save with ctrl+O & enter, exit ctrl+x
 
+- restart shadowsocks
+```
+systemctl daemon-reload
+systemctl enable shadowsocks
+systemctl start shadowsocks
+```
 - reboot your vps
 
 Done.
