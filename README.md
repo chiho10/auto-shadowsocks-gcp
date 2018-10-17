@@ -40,7 +40,7 @@ chmod +x autoinstall.sh
 ```
 nano /etc/shadowsocks/shadowsocks.json
 ```
-```
+```sh
 {
     "server":"0.0.0.0",
     "server_port":8838,     #change your own shadowsocks server port
